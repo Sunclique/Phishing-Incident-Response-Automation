@@ -3,7 +3,7 @@ This project demonstrates a hands-on approach to building a phishing incident re
 
 # Features Implemented So Far
 1.	Webhook Trigger: Accepts JSON representing reported emails for testing and simulation.
-2.	Event Transform: Extracts critical email fields such as sender, subject, urls
+2.	Event Transform: Extracts critical email fields such as sender, subject, urls (code is seen in the resipitory)
 3.	URL Threat Analysis: Sends URLs to URLScan API, checks for malicious content, and retrieves scan results.
 4.	Retry Logic: Implements loops to retry fetching results if the scan is pending (“Scan not finished yet”).
 5.	Verdict Summarization: Branches workflow to classify emails as suspicious or clean based on scan results.
