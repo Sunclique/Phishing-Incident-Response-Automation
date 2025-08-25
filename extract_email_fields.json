@@ -1,0 +1,5 @@
+{
+  "sender": "<<.webhook_action.body.message.from>>",
+  "subject": "<<.webhook_action.body.message.subject>>",
+  "urls": ["<<.webhook_action.body.message.body_text>>"]
+}
