@@ -14,7 +14,7 @@ This project demonstrates a hands-on approach to building a phishing incident re
 •	JSON Formatting Issues: Debugged incrementally to ensure payloads matched API expectations.
 
 # Testing
-•	Manual phishing emails tested with curl,  including both safe (http://example.com) and suspicious URLs (https://coinbaseportfolio.help).
+•	Manual phishing emails tested with curl,  including both safe (https://netacad.com) and suspicious URLs (https://coinbaseportfolio.help).
 •	Simulated Phishing email sent to a mail, connect to the web via google script using the javascript code which can be found in the repository
 •	Observed workflow branching, retry logic, and verdict summarization to ensure correct classification.
 
